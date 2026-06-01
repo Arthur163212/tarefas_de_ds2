@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 32px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 320px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  color: #333333;
+  font-size: 1.6rem;
+}
+
+#resultado p {
+  font-size: 1.1rem;
+  color: #555555;
+  margin: 8px 0;
+}
+
+#resultado span {
+  font-weight: bold;
+  color: #2563eb;
+}
